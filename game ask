@@ -1,0 +1,7 @@
+resp = str(input("Que penseriez-vous de s'essayer à la création d'un soft ludique via Pycharm ? : "))
+if (resp == "oui") or (resp == "ok") or (resp == "yep") or (resp == "yes"):
+    print("Cool !")
+elif (resp == "non") or (resp == "non merci") or (resp == "nope"):
+    print("dommage")
+else:
+    print("La question est mal répondu.")
